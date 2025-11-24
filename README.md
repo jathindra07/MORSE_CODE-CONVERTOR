@@ -46,12 +46,11 @@ It means, therefore, that the crux of the generator's work is not only the dicti
   2.UNSUPPORTED CHARACTERS
   3. REAL TIME GENERATIONS
 * PRACTISE AND ADVANCED
-# TECNOLOGY AND TOOLS
-You're​‍​‌‍​‍‌​‍​‌‍​‍‌ trying to make this sound like a conversation a little more casual between two people! No problem, let's forget the manual and just talk about how this translator works.
+# TECHNOLOGY AND TOOLS
 
  The Morse Code Translator: Talking Like a Friend
 
-Forget "tools" and "modules." Here's how the Python program does the work—it's as if you had three friends supporting you.</li></ul>1. The Dictionary: Your Cheat Sheet 
+Forget "tools" and "modules." Here's how the Python program does the work—it's as if you had three friends supporting you. The Dictionary: Your Cheat Sheet 
 
 This is the brain of the whole operation, but really, it's just a cheat sheet (or a massive list) inside the computer's memory.
 
@@ -75,11 +74,11 @@ A Python project cannot exist without Python being installed!
 
 python --version
 
-* When a number is displayed (ex. Python 3.10.6): That is GREAT! You may carry on to Step 2.
+* When a number is displayed (ex. Python 3.10.6 ): 
 
 * If the result of the operation is an error (such as the "command not found" error): Installing Python is the primary task then. Just google "install python" and get the latest version from the official python.org. Additionally, if you are installing it on Windows please make sure that you check the box "Add Python to PATH" as it will keep you from having a lot of trouble later on.
 
-📂 Step 2: Grabbing the Code (The Download)
+ Step 2: Grabbing the Code 
 
 Might the Morse code project be just a single file (we'll call it morse_translator.py) :
 
@@ -91,11 +90,11 @@ Might the Morse code project be just a single file (we'll call it morse_translat
 
 * Crucial: The best thing to do is to save the file in the directory where you will be working, here the Morse_Project folder, and it is also significant to provide a title to the file which ends with .py like morse_translator.py.
 
-▶️ Step 3: Running the Script (The Execution)
-
+ Step 3: Running the Script 
+ 
 This is the exciting part when you actually get the program to work!
 
-* Go to the Right Spot: Return to your Terminal/Command Prompt window. You need to direct it to the location of the Python file. Writing the cd (change directory) command to get to the folder you created will do the trick.
+* Go to the Right Spot: Return to your Terminal/Command Prompt window. You need to direct it to the location of the Python file. Writing the cd  command to get to the folder you created will do the trick.
 
 * Example (if it is on your desktop):
 
@@ -107,10 +106,22 @@ cd Desktop/Morse_Project
 
 python morse_translator.py
 
-💻 Step 4: Using the Program (The Fun)
+Step 4: Using the Program 
 
-* The application will go on to perform the requested task. Assuming the code has been implemented properly (like the examples we discussed), the program should directly:
+* The application will go on to perform the requested task. Assuming the code has been implemented properly , the program should directly:
 
 * Request Input: Request user input by something like, "Enter the Morse code to decode:"
 
-* Or: Just output the results of the built-in tests in the source code (e.g. HELLO ​‍​‌‍​‍‌​‍​‌‍​‍‌WORLD").
+* Or: Just output the results of the built-in tests in the source code .
+  # SCREENSHOTS
+  <img width="936" height="771" alt="Screenshot 2025-11-24 210914" src="https://github.com/user-attachments/assets/37197688-df8b-4784-9e6b-833948914ec3" />
+  OUTPUTS
+
+1)<img width="1568" height="292" alt="Screenshot 2025-11-24 210251" src="https://github.com/user-attachments/assets/b3abc895-439c-4faa-bdee-f70e41d6dd6a" />
+2)<img width="1557" height="293" alt="Screenshot 2025-11-24 210445" src="https://github.com/user-attachments/assets/5c52db69-1a29-444a-8fa6-1fee626b9d88" />
+3)<img width="1636" height="304" alt="Screenshot 2025-11-24 210709" src="https://github.com/user-attachments/assets/ddde99be-7efd-414e-94cb-ce4302efe77a" />
+
+
+
+  
+
