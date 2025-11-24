@@ -64,4 +64,53 @@ It's the one who understands your writing, and knows just the right place to cut
 In case you want the computer to beep the Morse code out loud, the Pacer is definitely the one creating the rhythm that you need.
 
 Job: Making sure the sounds are timed perfectly, just like a conductor guiding an orchestra.How it works: It implements a very simple command that essentially means: "Hey, computer! Do nothing for exactly 0.1 seconds."For a Dot: "Make a quick beep, then do nothing for a moment."For a Dash: "Make a longer beep, then do nothing for three times longer."This little "do nothing" pause is the entire secret to Morse code timing. It ensures that when you hear the code, you know exactly what is a dot, what is a dash, and where the words start and ​‍​‌‍​‍‌​‍​‌‍​‍‌end.
-# 
+# STEPS TO INSTALL AND RUN THE PROJECT
+​‍​‌‍​‍‌​‍​‌‍​‍‌ Step 1: Making Sure Python is There (The Prerequisite Check)
+
+A Python project cannot exist without Python being installed!
+
+* Check Your Terminal: Are you familiar with your computer's command line? (the command line is called Terminal on Mac/Linux and Command Prompt/PowerShell on Windows).
+
+* Ask the System: Putting this in and pressing Enter:
+
+python --version
+
+* When a number is displayed (ex. Python 3.10.6): That is GREAT! You may carry on to Step 2.
+
+* If the result of the operation is an error (such as the "command not found" error): Installing Python is the primary task then. Just google "install python" and get the latest version from the official python.org. Additionally, if you are installing it on Windows please make sure that you check the box "Add Python to PATH" as it will keep you from having a lot of trouble later on.
+
+📂 Step 2: Grabbing the Code (The Download)
+
+Might the Morse code project be just a single file (we'll call it morse_translator.py) :
+
+* Get the File: If the code is available online (i.e. on GitHub or a website), copying the entire code block would be your best bet.
+
+* Make a Folder: Create a new, empty folder somewhere easy to find, maybe on your Desktop, and name it something clear, like Morse_Project.
+
+* Save It: Launch a text editor (like VS Code, Notepad++, or even Notepad/TextEdit) and paste the code into a new, blank document.
+
+* Crucial: The best thing to do is to save the file in the directory where you will be working, here the Morse_Project folder, and it is also significant to provide a title to the file which ends with .py like morse_translator.py.
+
+▶️ Step 3: Running the Script (The Execution)
+
+This is the exciting part when you actually get the program to work!
+
+* Go to the Right Spot: Return to your Terminal/Command Prompt window. You need to direct it to the location of the Python file. Writing the cd (change directory) command to get to the folder you created will do the trick.
+
+* Example (if it is on your desktop):
+
+cd Desktop/Morse_Project
+
+* Tip: Usually the quickest way is to simply type cd and then drag your folder icon and drop it right on the Terminal window.
+
+* Fire It Up!: Once you have reached the correct folder path, you want to use the command Python followed by the filename to launch the script:
+
+python morse_translator.py
+
+💻 Step 4: Using the Program (The Fun)
+
+* The application will go on to perform the requested task. Assuming the code has been implemented properly (like the examples we discussed), the program should directly:
+
+* Request Input: Request user input by something like, "Enter the Morse code to decode:"
+
+* Or: Just output the results of the built-in tests in the source code (e.g. HELLO ​‍​‌‍​‍‌​‍​‌‍​‍‌WORLD").
